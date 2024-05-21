@@ -1,0 +1,165 @@
+* {
+    margin: 0%;
+    background-image: linear-gradient(black,#541531,black);
+}
+
+header {
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    height: 20vh;
+    background-color: black;
+    border: 5px solid #451531;
+    border-bottom: 5px solid #451531;
+    box-shadow: 0px 5px 5px black;
+}
+
+/* banner*/
+
+#secao-banner {
+    height: 23vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-image: url(Imagens/banner.webp);
+    width: 100%;
+    flex-direction: column;
+    background-size: contain;
+    align-items: center;
+    justify-content: center;
+}
+/*apresentaçao*/
+#seçao-apresentaçao{
+    height: 100%;
+    width: 100%;
+    padding: 200px;
+    background-image: linear-gradient(black,#451531, black);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#card-text-apresentaçao{
+    margin-left: 5%;
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+.img-apresentaçao{
+    border: 10px solid #451531;
+    height: 60%;
+    width: 50%;
+    background-color: black;
+
+}
+/* 1 seçao*/
+#seçao-card {
+    height: 100%;
+    width: 100%;
+    padding: 200px;
+    background-image: linear-gradient(black,#541531,black);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul {
+    color: white; 
+    list-style-type: none;
+    padding: 45px;
+}
+
+h1 {
+    font-size: 5em;
+    color: white;
+    height: 100%;
+    width: 100%;
+}
+
+p {
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+/*seletor de classe*/
+.card-img-1 {
+    border: 10px solid #451531;
+    height: 100%;
+    width: 30%;
+}
+
+#card-text-1 {
+    margin-left: 5%;
+    width: 40%;
+    height: 30%;
+    color: white;
+}
+
+/*2 seçao*/
+#seçao-card-2 {
+    height: 100%;
+    width: 100%;
+    display: flex; 
+    align-items: center;
+    background-image: linear-gradient(black, #451531,black);
+}
+
+#card-text-2 {
+    margin-right: 5%;
+    width: 40%;
+    height: 30%;
+    color: white;
+}
+
+.card-img-2 {
+    border: 10px solid black;
+    height: 100%;
+    width: 30%;
+}
+
+/*3 seçao*/
+#secao-card-3{
+    height: 100%;
+    width: 100%;
+    padding: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient(black,#451531, black);
+}
+.card-img-3{
+    border: 10px solid #451531;
+    height: 100%;
+    width: 30%;
+}
+#card-text-3{
+    margin-left: 5%;
+    width: 40%;
+    height: 30%;
+    color: white;
+}
+/* seçao footer*/
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    height: 20vh;
+    width: 100%;
+}
+.card-footer{
+    height: 50%;
+    width: 30%;
+}
+#footer-icones{
+    height: 70%;
+    width: 30%;
+}
+#card-footer-maps{
+    height: 70%;
+    width: 30%;
+}
+#card-footer-img{
+    height: 100%;
+    width: 100%
+    
+}
